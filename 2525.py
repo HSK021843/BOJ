@@ -9,6 +9,14 @@ M += Mplus
 if M >= 60:
     T += 1
     M -= 60
+
+    if T >= 24:
+        T -= 24
+        
     print(f"{T} {M}")
+    
 else:
+    if T >= 24:
+        T -= 24
+        
     print(f"{T} {M}")
