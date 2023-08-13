@@ -1,7 +1,7 @@
 while True:
-    A, B = map(int, input().split())
+    try:
+        A, B = map(int, input().split())
+        print(A + B)
 
-    if A <= 0 or A >= 10 or B <= 0 or B >= 10:
+    except EOFError:
         break
-    
-    print(A + B)
