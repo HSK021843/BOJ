@@ -1,10 +1,10 @@
 N = int(input())
-lst = list(input())
-v = input()
+lst = list(map(int, input().split()))
+v = int(input())
 cnt = 0
 
-for i in lst:
-    if i == v:
+for ele in lst:
+    if ele == v:
         cnt += 1
 
 print(cnt)
