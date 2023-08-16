@@ -1,2 +1,6 @@
 ipt = input().strip().split(' ')
-print(len(ipt))
+
+if len(ipt) == 1 and ipt[0] == '':
+    print(0)
+else:
+    print(len(ipt))
