@@ -1,15 +1,16 @@
+import sys
+
 n = int(input())
-lst = []
+lst = set()
 
 for _ in range(n):
-    name, log = map(str, input().split())
+    name, log = sys.stdin.readline().split()
 
     if log == "enter":
-        lst.append(name)
-    elif log == "leave":
+        lst.add(name)
+    else:
         lst.remove(name)
 
-lst.sort(reverse = True)
 
-for ele in lst:
-    print(ele)
+lst = sorted(lst, reverse = True)
+print('\n'.join(lst))
