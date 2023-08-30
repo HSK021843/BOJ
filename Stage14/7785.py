@@ -9,5 +9,7 @@ for _ in range(n):
     elif log == "leave":
         lst.remove(name)
 
+lst.sort(reverse = True)
+
 for ele in lst:
     print(ele)
