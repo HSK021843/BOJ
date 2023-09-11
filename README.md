@@ -6,4 +6,4 @@
 특이 사항: 23-08-30에 각 단계별 폴더 생성 후 재분류
 
 ## 진행상황
-[by_Python_3.txt](https://github.com/HSK021843/Baekjoon_problem_solving/blob/main/by_Python_3.txt)
+### [Python3](https://github.com/HSK021843/Baekjoon_problem_solving/blob/main/by_Python_3.txt)
